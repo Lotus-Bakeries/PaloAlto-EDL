@@ -12,7 +12,7 @@ The lists are automatically downloaded by the firewalls and are used to centrali
 .
 ├── README.md
 ├── Decryption-Exceptions.txt
-├── AI-Allow.txt
+├── AI-Allow
 
 ```
 
@@ -23,7 +23,7 @@ The lists are automatically downloaded by the firewalls and are used to centrali
 | File | Purpose |
 |------|---------|
 | Decryption-Exceptions.txt | Domains that should bypass SSL/TLS Decryption |
-| AI-Allow.txt | Approved AI services that are allowed |
+| AI-Allow | Approved AI services that are allowed |
 
 ---
 
@@ -33,13 +33,14 @@ Example RAW URL:
 
 ```
 https://raw.githubusercontent.com/Lotus-Bakeries/paloalto-edl/main/Decryption-Exceptions.txt
+https://raw.githubusercontent.com/Lotus-Bakeries/PaloAlto-EDL/refs/heads/main/AI-AllowList
 ```
 
 Configure the Palo Alto EDL as:
 
 - Objects
 - External Dynamic Lists
-- Type: Domain List
+- Type: URL List
 - Source: RAW GitHub URL
 
 ---
