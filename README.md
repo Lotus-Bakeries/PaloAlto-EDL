@@ -32,8 +32,8 @@ The lists are automatically downloaded by the firewalls and are used to centrali
 Example RAW URL:
 
 ```
-[https://raw.githubusercontent.com/Lotus-Bakeries/paloalto-edl/main/Decryption-Exceptions.txt](https://raw.githubusercontent.com/Lotus-Bakeries/PaloAlto-EDL/refs/heads/main/Decryption-Exceptions.txt)
-[https://raw.githubusercontent.com/Lotus-Bakeries/PaloAlto-EDL/refs/heads/main/AI-AllowList](https://raw.githubusercontent.com/Lotus-Bakeries/PaloAlto-EDL/refs/heads/main/AI-AllowList)
+https://raw.githubusercontent.com/Lotus-Bakeries/paloalto-edl/main/Decryption-Exceptions.txt
+https://raw.githubusercontent.com/Lotus-Bakeries/PaloAlto-EDL/refs/heads/main/AI-AllowList
 ```
 
 Configure the Palo Alto EDL as:
