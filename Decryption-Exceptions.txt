@@ -5,3 +5,6 @@ autologon.microsoftazuread-sso.com
 *.lync.com
 bitwarden.com
 *.bitwarden.com
+synology.com
+*.synology.com
+
