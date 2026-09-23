@@ -8,3 +8,5 @@ bitwarden.com
 synology.com
 *.synology.com
 lotus.get.be
+messaging.lotusbakeries.com
+messaging-test.lotusbakeries.com
