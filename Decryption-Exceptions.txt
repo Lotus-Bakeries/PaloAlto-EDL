@@ -12,3 +12,4 @@ messaging.lotusbakeries.com
 messaging-test.lotusbakeries.com
 databricks.com
 *.databricks.com
+gw-01.atps.nl
